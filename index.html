@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+
+<html lang="en" class=" -webkit-"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+   <!-- This is part of my "get to know it" proyect, If you are seeing this then you are a fellow brother, to make this I took a look at different designs and a variarity of knowledge.-->
+<!-- Latest compiled and minified CSS -->
+    
+<link rel="stylesheet" href="normalize.css" >
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+ <meta name="viewport" content="width=500, initial-scale=1">
+    <title>Hello</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge;chrome=1">
+    <meta name="description" content="I design and code stuff for the web">
+    <meta name="keywords" content="Alexander April, HTML, CSS, JS">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:site_name" content="">
+    <meta property="og:title" content="Alexander April">
+    <meta property="og:description" content="I design and code stuff for the web.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="">
+    <meta property="og:image" content="http:///img/apple-touch-icon.png">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:width" content="144">
+    <meta property="og:image:height" content="144">
+  
+    <link rel="apple-touch-icon" href="http:///img/apple-touch-icon.png">
+
+    <style media="" data-href="http://fonts.googleapis.com/css?family=Inconsolata">/* latin-ext */
+@font-face {
+  font-family: 'Inconsolata';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Inconsolata'), url(http://fonts.gstatic.com/s/inconsolata/v11/BjAYBlHtW3CJxDcjzrnZCCYE0-AqJ3nfInTTiDXDjU4.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Inconsolata';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Inconsolata'), url(http://fonts.gstatic.com/s/inconsolata/v11/BjAYBlHtW3CJxDcjzrnZCI4P5ICox8Kq3LLUNMylGO4.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+</style>
+    <style media="screen" data-href="css/styles.css">* { box-sizing: border-box; border: 0; font-size: 100%; font: inherit; vertical-align: baseline; margin: 0; padding: 0; -webkit-tap-highlight-color:rgba(0,0,0,0); }
+
+body {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+    background-color: white;
+  /*background-image: url('http://4.bp.blogspot.com/-ASI_P0_tcjA/VD8hh8f9KCI/AAAAAAAAAj4/Y26KakmmOl4/w1200-h630-p-nu/desktop-gadgets-unsplash.jpg') ;*/
+  background-size:cover;
+   background-repeat: no-repeat;
+background-attachment: fixed;
+    background-position: center center;
+  font-family: 'Consolas', 'monaco', monospace;
+  font-style: normal;
+  font-weight: 100;
+    font-style: italic;
+  color: #202020;
+  -webkit-font-smoothing: antialiased;
+   
+   
+}
+
+.container {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  max-width: 20em;
+  width: 100%;
+  height: 10em;
+  margin: -5em 0 0 -10em;
+  text-align: center;
+    flex-wrap: wrap;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+h1 a {
+  position: relative;
+  display: block;
+  overflow: hidden;
+  opacity: 0;
+  width: 1em;
+  height: 1em;
+  margin: 0 auto;
+  background-color: ghostwhite;
+  font-size: 3em;
+  line-height: 3em;
+  color: transparent;
+  border-radius: 50%;
+  border: 0em solid #39F;
+  transition: all .15s ease-in-out;
+  animation: logo .25s ease-out 2.4s 1 normal forwards;
+}
+
+h1 a:hover, h1 a:focus { background-color: lightgrey; }
+h1 a:active { transform: scale(.8); }
+
+@keyframes logo {
+  0%   { transform: rotate(25deg) scale(.01); opacity: 0; }
+  70%  { transform: scale(1.4); opacity: 1; }
+  100% { transform: scale(0.6); opacity: 1; }
+}
+
+h1 em {
+  position: absolute;
+  display: block;
+  top: .5em;
+  left: .4375em;
+  font-size: .5em;
+  line-height: 1em;
+  color: deepskyblue;
+}
+
+h1 em:last-child {
+  top: .5em;
+  left: 1em;
+}
+
+h2 {
+  display: block;
+  height: 1.5em;
+  margin: 1.5em 0;
+  color: #339;
+  line-height: 1.25em;
+}
+
+hr {
+  position: relative;
+  width: 4em;
+  height: 1px;
+  background: #339;
+  margin: 1em auto;
+}
+
+.slogan {
+  position: relative;
+  display: block;
+  overflow: hidden;
+  width: 0em;
+  height: 1.25em;
+  margin: -1.0em auto;
+  font-size: 2em;
+  line-height: 1.5em;
+  border-right: .125em solid #39F;
+  box-sizing: content-box;
+  animation-name: blink-start, typing, blink-end;
+  animation-duration: 1s, 1s, 1s;
+  animation-timing-function: linear, steps(13, end), linear;
+  animation-delay: 0s, 1s, 2s;
+  animation-iteration-count: 1, 1, infinite;
+  animation-direction: normal;
+  animation-fill-mode: forwards;
+}
+
+.slogan span {
+  display: block;
+  width: 9.8em;
+  height: 0.25em;
+  color: black;
+}
+
+@keyframes typing {
+  from { width: 0em; }
+  to   { width: 9.3em; }
+}
+
+@keyframes blink-start {
+  from, to { border-color: gray; }
+  50% { border-color: transparent; }
+}
+
+@keyframes blink-end {
+  from, to { border-color: black; }
+  50% { border-color: transparent; }
+}
+
+.contact {
+  position: relative;
+  width: 14em;
+  margin: 1em auto 1.5em auto;
+}
+
+.contact a {
+  display: inline-block;
+  overflow: hidden;
+  opacity: 0;
+  width: 2em;
+  height: 2em;
+  margin: 3.3em;
+   
+  background-image: url("images/sprite-1x.png");
+  background-repeat: no-repeat;
+  color: transparent;
+  transition: background-color .2s ease-in-out;
+  border-radius: 50%;
+  animation: icons .2s ease-out 0s 1 normal forwards;
+}
+
+@keyframes icons {
+  0%    { transform: translateY(3em); opacity: 0; }
+  70%   { transform: translateY(-.5em); opacity: 1; }
+  100%  { transform: translateY(0em); opacity: 1; }
+}
+
+.contact a:nth-child(1) { animation-delay: 2.5s; }
+.contact a:nth-child(2) { animation-delay: 2.55s; }
+.contact a:nth-child(3) { animation-delay: 2.6s; }
+.contact a:nth-child(4) { animation-delay: 2.65s; }
+
+.contact a:hover {
+  background-color: deepskyblue;
+}
+
+.contact a[href*="mailto"]  { background-position:  0px  8px; }
+.contact a[href*="github"]  { background-position: -32px 8px; }
+.contact a[href*="codepen"] { background-position: -64px 8px; }
+.contact a[href*="twitter"] { background-position: -96px 8px; }
+
+@media
+  (min--moz-device-pixel-ratio: 2),
+  (-o-min-device-pixel-ratio: 2/1),
+  (-webkit-min-device-pixel-ratio: 2),
+  (min-device-pixel-ratio: 2) {
+  .contact a {
+    background-image: url('images/sprite-1x.png');
+    background-size: 128px 16px;
+  }
+
+
+}</style>
+    <script type="text/javascript" async="" src="core/ga.js"></script><script src="core/prefixfree.min.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <h1><a href="index.html"><em>A</em>lexander <em>.</em>pril</a></h1>
+      <p class="slogan"><span>I Design Stuff..</span></p>
+      <div class="contact">
+       
+      <!--  <a href="https://github.com/GrimmCode" target="_blanc">GrimmCode</a>-->
+ 
+        <a href="mailto:xanderram@outlook.com">AlexanderApril</a>
+          <i class="user icon"></i>
+      </div>
+    </div>
+  <!--  <script type="text/javascript">
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-37236197-1']);
+      _gaq.push(['_trackPageview']);
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+    </script>-->
+
+</body></html>
